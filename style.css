@@ -20,6 +20,7 @@ body {
   background-image: url("https://images.unsplash.com/photo-1588097257570-59b6f7360bfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXNldGhldGljJTIwciUyMHRyZWVzJTIwcGluayUyMHNoYWRlJTIwd2FsbHBhZXJ8ZW58MHwwfDB8fHww");
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 1s ease;
 }
 .clock {
   width: 640px;
@@ -35,7 +36,8 @@ body {
   height: 180px;
   align-items: center;
   background-color: rgb(232, 224, 214);
-  animation-direction: alternate;
+  transition: 1s ease;
+ 
 }
 h1 {
   font-weight: 600;
@@ -65,6 +67,8 @@ button{
     box-shadow: inset 5px 6px  12px rgba(241, 235, 235, 0.9), 5px 5px 12px rgba(0, 0, 0, 0.9);
     font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.8s  all ease;
+
 }
 
 @media (max-width: 400px) {
@@ -81,13 +85,14 @@ button{
     margin-left: 8px;
   }
   button{
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 29px;
+    font-weight: 800;
     width: 220px;
     height: 50px;
-    left: 19%;
+    right: 16%;
     top: 67%;
     border-radius: 15px;
+    border: none;
 
   }
 }
