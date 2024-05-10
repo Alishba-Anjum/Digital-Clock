@@ -51,6 +51,22 @@ span {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+button{
+    width: 380px;
+    height: 80px;
+    font-size: 50px;
+    position: absolute;
+    top: 70%;
+    right: 37%;
+    background-color: rgb(216, 156, 166);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 5px 6px  12px rgba(241, 235, 235, 0.9), 5px 5px 12px rgba(0, 0, 0, 0.9);
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 @media (max-width: 400px) {
   .clock {
     width: 300px;
@@ -63,5 +79,15 @@ span {
   span {
     font-size: 16px;
     margin-left: 8px;
+  }
+  button{
+    font-size: 25px;
+    font-weight: 200;
+    width: 220px;
+    height: 50px;
+    left: 14%;
+    top: 67%;
+    border-radius: 15px;
+
   }
 }
